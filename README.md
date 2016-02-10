@@ -1,6 +1,10 @@
 # til
-Today I Learned
 
+> Today I Learned
+
+A collection of concise write-ups on small things I learn day to day across a
+variety of technologies, servers, and languages. These are things that don't really
+warrant a [full blog](https://roozbeh.io) post. 
 
 ## About
 
