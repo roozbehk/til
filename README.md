@@ -6,6 +6,21 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of technologies, servers, and languages. These are things that don't really
 warrant a [full blog](https://roozbeh.io) post. 
 
+---
+
+### Categories
+
+* [Devops](#devops)
+* [Linux](#linux)
+* [Mac](#mac)
+
+---
+
+### Devops
+### Linux
+### Mac
+
+
 ## About
 
 Orginally started the version of "Today I Learned" as [mediawiki pages](http://wiki.gqdev.com), where at times wrote down things I wanted to remember in the future. 
