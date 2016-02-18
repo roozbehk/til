@@ -11,11 +11,12 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Categories
 
 * [Devops](#devops)
+* [Life](#life)
 * [Linux](#linux)
 * [Mac](#mac)
 
 ---
-
+### Life
 ### Devops
 ### Linux
 ### Mac
