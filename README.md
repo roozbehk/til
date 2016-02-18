@@ -17,6 +17,7 @@ warrant a [full blog](https://roozbeh.io) post.
 
 ---
 ### Life
+[Harvard Happiness Study](til/life/harvard-happiness-study.md)
 ### Devops
 ### Linux
 ### Mac
