@@ -11,3 +11,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
 "Shell"="explorer.exe"
 ```
+
+
+[Reference](http://helpdeskgeek.com/windows-7/fix-windows-explorer-window-opening-on-startup)
