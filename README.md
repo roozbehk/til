@@ -24,6 +24,7 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Mac
 ### Windows
 [Disable Windows Hibernate](windows/hibernate-enable-disable.md)
+[Fix Windows Explorer Window Opening on Startup](windows/fix_explorer_windows_startup.md)
 
 ## About
 
