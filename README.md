@@ -14,6 +14,7 @@ warrant a [full blog](https://roozbeh.io) post.
 * [Life](#life)
 * [Linux](#linux)
 * [Mac](#mac)
+* [Windows](#windows)
 
 ---
 ### Life
@@ -21,7 +22,8 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Devops
 ### Linux
 ### Mac
-
+### Windows
+[Disable Windows Hibernate](windows/hibernate-enable-disable.md)
 
 ## About
 
