@@ -25,7 +25,7 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Windows
 [Disable Windows Hibernate](windows/hibernate-enable-disable.md)
 
-[Fix Windows Explorer Window Opening on Startup](windows/fix_explorer_windows_startup.md)
+[Fix Windows Explorer Window Opening on Startup Registry Hack](windows/fix_explorer_windows_startup.md)
 
 [Test Internet Connection Powershell](windows/speedtest.md)
 ## About
