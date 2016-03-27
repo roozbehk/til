@@ -14,6 +14,7 @@ warrant a [full blog](https://roozbeh.io) post.
 * [Life](#life)
 * [Linux](#linux)
 * [Mac](#mac)
+* [Powershell](#powershell)
 * [Windows](#windows)
 
 ---
@@ -22,12 +23,15 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Devops
 ### Linux
 ### Mac
+### Powershell
+[Test Internet Connection Powershell](powershell/speedtest.md)
+
+[Send the array through the pipeline](powershell/foreach.md)
 ### Windows
 [Disable Windows Hibernate](windows/hibernate-enable-disable.md)
 
 [Fix Windows Explorer Window Opening on Startup Registry Hack](windows/fix_explorer_windows_startup.md)
 
-[Test Internet Connection Powershell](windows/speedtest.md)
 ## About
 
 Orginally started the version of "Today I Learned" as [mediawiki pages](http://wiki.gqdev.com), where at times wrote down things I wanted to remember in the future. 
