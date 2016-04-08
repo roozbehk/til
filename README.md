@@ -20,6 +20,7 @@ warrant a [full blog](https://roozbeh.io) post.
 ---
 ### Life
 [Harvard Happiness Study](life/harvard-happiness-study.md)
+
 [Three Envelopes](life/Prepare_3_Envelopes.md)
 ### Devops
 ### Linux
@@ -33,6 +34,7 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [Fix Windows Explorer Window Opening on Startup Registry Hack](windows/fix_explorer_windows_startup.md)
 
+[Windows Firewall PoshPAIG]windows/PoshPAIG_Allow_Firewall.md
 ## About
 
 Orginally started the version of "Today I Learned" as [mediawiki pages](http://wiki.gqdev.com), where at times wrote down things I wanted to remember in the future. 
