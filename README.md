@@ -20,6 +20,7 @@ warrant a [full blog](https://roozbeh.io) post.
 ---
 ### Life
 [Harvard Happiness Study](life/harvard-happiness-study.md)
+[Three Envelopes](life/Prepare_3_Envelopes.md)
 ### Devops
 ### Linux
 ### Mac
