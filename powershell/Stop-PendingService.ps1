@@ -1,3 +1,4 @@
+```powershell
 function Stop-PendingService {
 <#
 .SYNOPSIS
@@ -27,3 +28,4 @@ function Stop-PendingService {
 }
 
 Stop-PendingService
+```
