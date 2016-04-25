@@ -1,3 +1,4 @@
+Force Stop a Service that is pedning stop. 
 ```powershell
 function Stop-PendingService {
 <#
