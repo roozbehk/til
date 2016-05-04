@@ -21,7 +21,7 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Life
 [Harvard Happiness Study](life/harvard-happiness-study.md)
 
-###
+### Linux
 [Linux](linux/resize_linux_filesystem.md)
 
 
