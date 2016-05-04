@@ -142,23 +142,23 @@ Syncing disks.
 ```
 at this point you can reboot the system 
 
-`root@rl-web:~# sudo reboot
+`root@rl-web:~# sudo reboot`
 
 resize your disk
-`root@rl-web:~# sudo resize2fs /dev/sda1
+`root@rl-web:~# sudo resize2fs /dev/sda1`
 
 check the space increase
-`df -h
+`df -h`
 
 
 
 ## Recreate Swap:
 remember the `UUID you will need to change your fstab
-`root@rl-web:~# mkswap /dev/sda5
+`root@rl-web:~# mkswap /dev/sda5`
 Setting up swapspace version 1, size = 4189180 KiB
 no label, UUID=9bcfb33b-a900-4688-875c-d5cfd02a7120
 make swap active
-`root@rl-web:~# sudo swapon --all --verbose
+`root@rl-web:~# sudo swapon --all --verbose`
 
 change swap UUID in /etc/fstab
-`root@rl-web:~# vim /etc/fstab
+`root@rl-web:~# vim /etc/fstab`
