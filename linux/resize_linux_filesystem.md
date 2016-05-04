@@ -145,9 +145,11 @@ at this point you can reboot the system
 `root@rl-web:~# sudo reboot`
 
 resize your disk
+
 `root@rl-web:~# sudo resize2fs /dev/sda1`
 
 check the space increase
+
 `df -h`
 
 
@@ -161,7 +163,9 @@ no label, UUID=9bcfb33b-a900-4688-875c-d5cfd02a7120
 ```
 
 make swap active
+
 `root@rl-web:~# sudo swapon --all --verbose`
 
 change swap UUID in /etc/fstab
+
 `root@rl-web:~# vim /etc/fstab`
