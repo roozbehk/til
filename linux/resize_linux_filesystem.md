@@ -153,7 +153,7 @@ check the space increase
 
 
 ## Recreate Swap:
-remember the `UUID you will need to change your fstab
+remember the `UUID` you will need to change your fstab
 ```bash
 root@rl-web:~# mkswap /dev/sda5
 Setting up swapspace version 1, size = 4189180 KiB
