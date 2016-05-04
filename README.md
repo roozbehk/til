@@ -22,7 +22,7 @@ warrant a [full blog](https://roozbeh.io) post.
 [Harvard Happiness Study](life/harvard-happiness-study.md)
 
 ### Linux
-[Linux](linux/resize_linux_filesystem.md)
+[Resize Linux File System ext4](linux/resize_linux_filesystem.md)
 
 
 [Three Envelopes](life/Prepare_3_Envelopes.md)
