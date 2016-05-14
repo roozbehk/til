@@ -1,5 +1,7 @@
+Change IP, Restart netlogon , Flush DNS, RegisterDNS
+
 ```
-net stop net logon & net start net logon
+net stop netlogon & net start netlogon
 ipconfig /flushdns & ipconfig /registerdns
 dcdiag /test:dns /v /s:<DCName>
 ```
