@@ -2,11 +2,11 @@
 under `Windows Update (Post-Application Installation)` create `Custom Tasks (Post Windows Update)` folder.
 
 ## Install Application Action-CleanWSUSConfig
-1. Create a new `Install Application` type task. 
-2. Install a single application
-   Action-CleanWSUSConfig - 
+Type: `Install Application`
+Name: `Install Application Action-CleanWSUSConfig`
+Install a single application: `Action-CleanWSUSConfig`
 
-File: Action-CleanWSUSConfig.wsf
+Import Application File: Action-CleanWSUSConfig.wsf
    
    ```vbs
 <job id="Action-CleanupBeforeSysprep">
