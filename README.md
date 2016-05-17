@@ -35,6 +35,8 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [Send the array through the pipeline](powershell/foreach.md)
 ### Windows
+[How do I convert a vhd to a wim file?](windows/create_wim_image.md)
+
 [Disable Windows Hibernate](windows/hibernate-enable-disable.md)
 
 [Fix Windows Explorer Window Opening on Startup Registry Hack](windows/fix_explorer_windows_startup.md)
