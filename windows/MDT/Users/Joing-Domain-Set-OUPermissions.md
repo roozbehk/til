@@ -7,6 +7,7 @@ Set-Location C:\Setup\Scripts
 .\Set-OUPermissions.ps1 -Account MDT_JD 
 -TargetOU "OU=Workstations,OU=Computers,OU=Contoso"
 ```
+https://gallery.technet.microsoft.com/Configure-permissions-in-2326651a
 
 Set-OUPermissions.ps1
 ```powershell
