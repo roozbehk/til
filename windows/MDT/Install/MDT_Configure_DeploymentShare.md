@@ -2,7 +2,7 @@
 
 http://renshollanders.nl/2015/09/mdt-updated-powershell-scripts-for-windows-adk-10-and-mdt-2013-update-1-build-8298/
 
-MDT_Configure_DeploymentShare.ps1
+`MDT_Configure_DeploymentShare.ps1`
 ```
 # *************************************************************************** 
 # *************************************************************************** 
