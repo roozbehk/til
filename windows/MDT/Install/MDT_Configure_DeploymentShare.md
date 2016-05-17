@@ -38,7 +38,7 @@ $PSDrive = "DS001:"
 $PhysicalPath = "C:\CONTOSO"
 $Hostname = "CONTOSO-MDT01"
 $ShareName = "CONTOSO DeploymentShare$"
-$UNCPath = '\\'+$Hostname+'\'+$ShareName
+$UNCPath = $ShareName
 $Description = "CONTOSO Deployment Share"
 
 #Specify Share Permissions
