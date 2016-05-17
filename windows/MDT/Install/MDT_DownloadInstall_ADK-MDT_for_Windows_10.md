@@ -1,5 +1,4 @@
-## This PowerShell script will automatically download and install
-## Microsoft Windows ADK for Windows 10, and MDT 2013 update 2
+### This PowerShell script will automatically download and install Microsoft Windows ADK for Windows 10, and MDT 2013 update 2
 http://renshollanders.nl/2015/09/mdt-updated-powershell-scripts-for-windows-adk-10-and-mdt-2013-update-1-build-8298/
 
 MDT_DownloadInstall_ADK-MDT_for_Windows_10.ps1
