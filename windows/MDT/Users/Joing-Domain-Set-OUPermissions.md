@@ -1,4 +1,4 @@
-Give Specific User Access to Join Domain
+Give Specific User Access to Join Domain in Specific OU
 
 ## Execute
 ```
