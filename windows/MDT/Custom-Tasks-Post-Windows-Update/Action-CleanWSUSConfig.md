@@ -1,4 +1,4 @@
-# Action-CleanWSUSConfig.md
+# Action-CleanWSUSConfig
 under `Windows Update (Post-Application Installation)` create `Custom Tasks (Post Windows Update)` folder.
 
 ## Install Application Action-CleanWSUSConfig
