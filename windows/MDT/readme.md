@@ -14,3 +14,7 @@ Updated Powershell scripts for Windows ADK 10 and MDT 2013 update 1 Build 8298 h
 Configuring MDT 2013 Deployment Share settings via PowerShell http://deploymentresearch.com/Research/Post/403/Configuring-MDT-2013-Deployment-Share-settings-via-PowerShell
 
 http://henkhoogendoorn.blogspot.com/2015/12/how-to-remove-windows-and-office.html
+
+
+http://deploymentresearch.com/Research/Post/521/Back-to-Basics-Building-a-Windows-7-SP1-Reference-Image-using-MDT-2013-Update-2
+
