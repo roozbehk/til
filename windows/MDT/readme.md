@@ -9,6 +9,8 @@ The Configuration Manager task sequence does not suppress user interface interac
 MDT Lite Touch supports a Suspend action that allows for reboots, which is useful when you need to perform a manual installation or check the reference image before it is automatically captured.
 MDT Lite Touch does not require any infrastructure and is easy to delegate.
 
+Blogs:
+
 Updated Powershell scripts for Windows ADK 10 and MDT 2013 update 1 Build 8298 http://renshollanders.nl/2015/09/mdt-updated-powershell-scripts-for-windows-adk-10-and-mdt-2013-update-1-build-8298/
 
 Configuring MDT 2013 Deployment Share settings via PowerShell http://deploymentresearch.com/Research/Post/403/Configuring-MDT-2013-Deployment-Share-settings-via-PowerShell
@@ -17,4 +19,7 @@ http://henkhoogendoorn.blogspot.com/2015/12/how-to-remove-windows-and-office.htm
 
 
 http://deploymentresearch.com/Research/Post/521/Back-to-Basics-Building-a-Windows-7-SP1-Reference-Image-using-MDT-2013-Update-2
+
+OS Deployment, Virtualization
+https://deploymentbunny.com/
 
