@@ -30,6 +30,8 @@ warrant a [full blog](https://roozbeh.io) post.
 ### Devops
 ### Linux
 ### Mac
+[Remap Windows Keys RDP](mac/autohotkey.md)
+
 ### Powershell
 [Test Internet Connection Powershell](powershell/speedtest.md)
 
