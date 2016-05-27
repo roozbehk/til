@@ -2,6 +2,9 @@
 Get-AppxPackage -AllUser | Where PublisherId -eq 8wekyb3d8bbwe | Format-List -Property PackageFullName,PackageUserInformation
 Get-AppxProvisionedPackage -Online | Select PackageName
 
+Get-AppxPackage -AllUsers | where-object {$_.name –notlike “*store*”} | Remove-AppxPackage
+Get-appxprovisionedpackage –online | where-object {$_.packagename –notlike “*store*”} | Remove-AppxProvisionedPackage -online    
+
 
 Remove-AppxPackage -Package Microsoft.BingFinance_4.7.118.0_neutral_~_8wekyb3d8bbwe
 Remove-AppxPackage -Package Microsoft.BingNews_4.7.118.0_neutral_~_8wekyb3d8bbwe
