@@ -1,4 +1,6 @@
-Build the new server
+
+```
+uild the new server
 Give it a temporary IP address
 Join it to the domain
 Promote it to DC (you could need some adprep if this hasn't already been done)
@@ -12,3 +14,4 @@ Reboot the new DC two times
 Wait some time for replication (an hour should be more than enough)
 Demote the old DC
 Leave the old DC in service if there are more data or services on it, otherwise just shut it down.
+```
