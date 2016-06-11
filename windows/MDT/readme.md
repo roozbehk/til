@@ -29,6 +29,6 @@ MDT Deplyment Advanced Topics : https://www.youtube.com/watch?v=wPkWytKmVqM
 
 ZoomIT: https://live.sysinternals.com/
 
-
+SCU 2014- Kent Agerlund https://www.youtube.com/watch?v=9hDFqcPjjSA
 
 
