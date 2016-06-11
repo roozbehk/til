@@ -24,6 +24,11 @@ OS Deployment, Virtualization
 https://deploymentbunny.com/
 
 Making reference images 8.1: https://www.youtube.com/watch?v=9akpHwJS5bg
+
 MDT Deplyment Advanced Topics : https://www.youtube.com/watch?v=wPkWytKmVqM
+
+ZoomIT: https://live.sysinternals.com/
+
+
 
 
