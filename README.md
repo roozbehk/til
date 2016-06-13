@@ -36,6 +36,8 @@ warrant a [full blog](https://roozbeh.io) post.
 [Test Internet Connection Powershell](powershell/speedtest.md)
 
 [Send the array through the pipeline](powershell/foreach.md)
+
+[SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
 ### Windows
 [How do I convert a vhd to a wim file?](windows/create_wim_image.md)
 
