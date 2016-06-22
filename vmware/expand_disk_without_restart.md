@@ -1,3 +1,4 @@
+### Expand VMDK Rescan iscsi host for changes in host
 Once you've changed the disk's size in VMware and did not reboot your server, rescan your SCSI devices as such.
 
 First, check the name(s) of your scsi devices.
