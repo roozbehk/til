@@ -1,6 +1,5 @@
 ```
 ::Copy all files from sourcepath to destinationpath using Robocopy
-::Last updated on 23/02/2012 by Adam Rush
 ::
 ::Switches:
 ::(E)mpty folders included in copy
@@ -19,4 +18,26 @@ set logpath=E:\Logs\Robocopy\
 set filename=Robocopy_%date:~-4,4%-%date:~-7,2%-%date:~-10,2%#%time::=-%.txt
 ::Run command
 robocopy %sourcepath% %destinationpath% /E /R:15 /W:5 /LOG:”%logpath%%filename%” /NP /MIR
+```
+
+```
+@echo off
+
+SET SORC="\\SORC\e$\FOLDER"
+SET DEST="\\DEST\w$\FOLDER"
+SET LOG="\\LOG\w$\file.log"
+
+ROBOCOPY %SORC% %DEST% /e /R:1 /W:1 /NP /LOG:%LOG%
+@if errorlevel 16 echo ***ERROR *** & goto END
+@if errorlevel 8 echo **FAILED COPY ** & goto END
+@if errorlevel 4 echo *MISMATCHES * & goto END
+@if errorlevel 2 echo EXTRA FILES & goto END
+@if errorlevel 1 echo --Copy Successful-- & goto END
+@if errorlevel 0 echo --Copy Successful-- & goto END
+goto END
+
+:END
+
+pause
+
 ```
