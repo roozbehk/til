@@ -1,10 +1,14 @@
 ## Boot File final_zone_policy_v3.boot
 
 `save` content below to `final_zone_policy_v3.boot`
+
 `winscp` sftp/ssh to /home/ubnt and upload final_zone_policy_v3.boot`
+
 `ssh` into ubnt
-`configure`
-`load /home/ubnt/final_zone_policy_v3.boot`
+
+> `configure`
+
+> `load /home/ubnt/final_zone_policy_v3.boot`
 
 ```
 firewall {
