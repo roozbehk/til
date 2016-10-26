@@ -1,4 +1,4 @@
-``create_uefi_partitions_windows_10_.conf
+`create_uefi_partitions_windows_10_.conf`
 ```
 select disk 0
 clean
