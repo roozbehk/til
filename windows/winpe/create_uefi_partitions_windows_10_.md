@@ -50,7 +50,7 @@ Run `deploy_windows_image_.bat`
 
 
 Create Apply UEFI Partition
-apply_uefi_recovery_parition_windows_10_.bat
+`apply_uefi_recovery_parition_windows_10_.bat`
 
 ```
 rem == Apply the image to the Windows partition ==
