@@ -41,6 +41,7 @@ DISM.exe /apply-image /imagefile:LOCATION_OF_YOUR_IMAGE\image.swm /swmfile:LOCAT
 Use this if you are going to apply full image
 
 ```
+rem == Apply the image to the Windows partition ==
 dism /Apply-Image /ImageFile:LOCATION_OF_YOUR_IMAGE\image.wim /Index:1 /ApplyDir:W:\
 
 ```
@@ -53,9 +54,6 @@ Create Apply UEFI Partition
 `apply_uefi_recovery_parition_windows_10_.bat`
 
 ```
-rem == Apply the image to the Windows partition ==
-dism /Apply-Image /ImageFile:%1 /Index:1 /ApplyDir:W:\
-
 rem == Copy boot files to the System partition ==
 W:\Windows\System32\bcdboot W:\Windows /s S:
 
@@ -74,4 +72,4 @@ W:\Windows\System32\Reagentc /Info /Target W:\Windows
 Run `apply_uefi_recovery_parition_windows_10_.bat`
 
 
-Restart
+Your machine should now be imaged, restart or shutdown.
