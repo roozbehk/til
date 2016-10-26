@@ -1,20 +1,24 @@
+Boot winpe, mount S drive (UEFI Partition) , use Dism to Capture both C:\ and S:\ , for windows 10 you will need to use winpe10 dism version. 
 
-This batch file will capture your C: drive to E:\capture folder, you should run this from winpe and you can have another external drive mounted on e to capture the file to.
-
-if you need to split your image, use the last command. 
-
+```
+diskpart
+list partition
+select partition=1
+assign letter=S
+exit
+Dism /Capture-Image /ImageFile:c:\windows-partition.wim /CaptureDir:C:\ /Name:"Windows Partition"
+Dism /Capture-Image /ImageFile:c:\system-partition.wim /CaptureDir:S:\ /Name:"System Partition"
 ```
 
 
+
+
+Split your image to fit into USB fat32 formatted stick.
+
+```
 @echo off
 
-for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /format:list') do set datetime=%%I
-set datetime=%datetime:~0,8%-%datetime:~8,4%
-
-rem "Capturing Windows Image"
-%systemdrive%\windows\system32\dism.exe /ScratchDir:%UFDPATH%\TEMP /Capture-Image /Verify /Compress:fast /ImageFile:e:\capture\%datetime%_Windows.wim /CaptureDir:C:\ /Name:"Windows"
-
 rem "Spliting captured image to 4GB sizes"
-%systemdrive%\windows\system32\dism.exe /Split-Image /ImageFile:e:\capture\%datetime%_Windows.wim /SWMFile:%datetime%_Windows.swm /FileSize:4096
+%systemdrive%\windows\system32\dism.exe /Split-Image /ImageFile:C:\Windows.wim /SWMFile:Windows.swm /FileSize:4096
 
 ```
