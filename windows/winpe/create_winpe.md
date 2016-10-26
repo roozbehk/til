@@ -1,6 +1,10 @@
 You will need ADK for windows 10. Install and Select WINPE
 
-Run as Administrator, Deployment and Imaging Tools Environment
+ADK for Windows 10
+https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit
+
+Run as Administrator, Select `Deployment and Imaging Tools Environment`
+
 ## Create a 64bit version and copy to folder c:\WinPE_amd64
 
 `copype amd64 C:\WinPE_amd64`
