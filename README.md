@@ -39,7 +39,7 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
 ### Windows
-[How do I convert a vhd to a wim file?](windows/create_wim_image.md)
+[How do I convert a vhdx to a wim file?](windows/create_wim_image.md)
 
 [Robocopy Files with Email](windows/robocopy_email_enabled.md)
 
@@ -50,6 +50,22 @@ warrant a [full blog](https://roozbeh.io) post.
 [Windows Firewall PoshPAIG](windows/PoshPAIG_Allow_Firewall.md)
 
 [Windows DNS AD Tests](windows/DNS_Server_Diag.md)
+
+[Disable Windows Hibernate](windows/hibernate-enable-disable.md)
+
+[Group Policy WMI Filter Windows OS](windows/wmi_filter_gp.md)
+
+[Remove Windows 10 Apps](windows/win10_remove_apps.md)
+
+[Moving Windows Domain Controller](windows/movingDC.md)
+
+[DNS AD Diag Tests](windows/DNS_Server_Diag.md)
+
+[Create UEFI Parition Windows 10](windows/winpe/create_uefi_partitions_windows_10_.md)
+
+[Run Powershell from configure.cmd](windows/configure.cmd)
+
+[Get UUID or MAC Address](windows/get_UUID_Macaddress.md)
 ## About
 
 Orginally started the version of "Today I Learned" as [mediawiki pages](http://wiki.gqdev.com), where at times wrote down things I wanted to remember in the future. 
