@@ -40,6 +40,7 @@ warrant a [full blog](https://roozbeh.io) post.
 [SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
 ### Windows
 [How do I convert a vhd to a wim file?](windows/create_wim_image.md)
+[Robocopy Files with Email](windows/robocopy_email_enabled.md)
 
 [Disable Windows Hibernate](windows/hibernate-enable-disable.md)
 
