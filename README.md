@@ -45,7 +45,7 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [Active Directory - Disable Users Number of Days](powershell/AD_DisableUsers.md)
 
-[Release Management - Run Scheduled Tasks as Part of Deployment](/tree/master/powershell/releasemanagement/ScheduledTasks)
+[Release Management - Run Scheduled Tasks as Part of Deployment](powershell/releasemanagement/ScheduledTasks)
 
 
 ### Windows
