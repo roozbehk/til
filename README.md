@@ -41,6 +41,8 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [SQL Query with Email Report](powershell/SQLQueryEmailReport.md)
 
+[ESXi Check Smart Status Harddrive](powershell/esxi-HDsmartstatus-email.md)
+
 
 ### Windows
 [How do I convert a vhdx to a wim file?](windows/create_wim_image.md)
