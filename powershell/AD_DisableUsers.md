@@ -1,4 +1,4 @@
-# PowerShellDisableADUsers
+# AD_DisableUsers
 Disable Inactive Active Directory Users after 90 Days, Move Home and Profile Directories after 180 Days to Archive Folder. The script logs the disabled users and sends an email. 
 
 This Powershell Script can be setup as a scheduled task which runs nightly, it will go through users in active directory and finds accounts that have not logged in 90 days (date count can be changed) and disables the account.
