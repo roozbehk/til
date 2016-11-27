@@ -47,6 +47,8 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [Release Management - Run Scheduled Tasks as Part of Deployment](powershell/releasemanagement/ScheduledTasks)
 
+[Release Management - Run as Administrator](powershell/releasemanagement/RUNas)
+
 [Install - UltraVNC Remotely](powershell/Install_UltraVNC_Remotley.md)
 
 [Windows - Mount Network Shares at Logon](powershell/MountNetworkDrives.md)
