@@ -33,15 +33,15 @@ warrant a [full blog](https://roozbeh.io) post.
 [Remap Windows Keys RDP](mac/autohotkey.md)
 
 ### Powershell
-[Test Internet Connection Powershell](powershell/speedtest.md)
+[Website - Speed Test Internet Connection Powershell](powershell/speedtest.md)
 
-[Send the array through the pipeline](powershell/foreach.md)
+[Fucntion - Send the array through the pipeline](powershell/foreach.md)
 
-[SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
+[Firewall - SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
 
-[SQL Query with Email Report](powershell/SQLQueryEmailReport.md)
+[SQL - Query with Email Report](powershell/SQLQueryEmailReport.md)
 
-[ESXi Check Smart Status Harddrive](powershell/esxi-HDsmartstatus-email.md)
+[ESXi - Check Smart Status Harddrive](powershell/esxi-HDsmartstatus-email.md)
 
 [Active Directory - Disable Users Number of Days](powershell/AD_DisableUsers.md)
 
