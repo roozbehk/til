@@ -49,6 +49,8 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [Install - UltraVNC Remotely](powershell/Install_UltraVNC_Remotley.md)
 
+[Windows - Mount Network Shares at Logon](powershell/MountNetworkDrives.md)
+
 
 ### Windows
 [How do I convert a vhdx to a wim file?](windows/create_wim_image.md)
