@@ -43,6 +43,8 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [ESXi Check Smart Status Harddrive](powershell/esxi-HDsmartstatus-email.md)
 
+[Active Directory Disable Users Number of Days](powershell/AD_DisableUsers.md)
+
 
 ### Windows
 [How do I convert a vhdx to a wim file?](windows/create_wim_image.md)
