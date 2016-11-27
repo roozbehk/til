@@ -26,7 +26,7 @@ Command: PowerShell
 Argument: -command ./Scheduled_Task_End_Run.ps1 -Taskaction '__Taskaction __' -Taskname '__Taskname __'
 ```
 
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/tools-run-end.png?raw=true "Tools Run/End Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/tools-run-end.png?raw=true "Tools Run/End Scheduled Task")
 
 Upload `Scheduled_Task_End_Run.ps1`
 Save New Tool.
@@ -55,7 +55,7 @@ Categories: Custom
 Tools used: Scheduled Tasks (End/Run)
 Argument: -command ./Scheduled_Task_End_Run.ps1 -Taskaction Run -Taskname '__Taskname __'
 ```
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/action-run.png?raw=true "Run Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/action-run.png?raw=true "Run Scheduled Task")
 
 #### End Scheduled Task
 
@@ -66,7 +66,7 @@ Categories: Custom
 Tools used: Scheduled Tasks (End/Run)
 Argument: -command ./Scheduled_Task_End_Run.ps1 -Taskaction End -Taskname '__Taskname __'
 ```
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/action-end.png?raw=true "End Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/action-end.png?raw=true "End Scheduled Task")
 
 #### Enable Scheduled Task
 
@@ -77,7 +77,7 @@ Categories: Custom
 Tools used: Scheduled Tasks (Disable/Enable)
 Argument: -command ./Scheduled_Task_Disable_Enable.ps1 -Taskaction Enable -Taskname '__Taskname __'
 ```
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/action-enable.png?raw=true "Enable Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/action-enable.png?raw=true "Enable Scheduled Task")
 
 
 #### Disable Scheduled Task
@@ -89,13 +89,13 @@ Tools used: Scheduled Tasks (Disable/Enable)
 Argument: -command ./Scheduled_Task_Disable_Enable.ps1 -Taskaction Disable -Taskname '__Taskname __'
 ```
 
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/action-disable.png?raw=true "Disable Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/action-disable.png?raw=true "Disable Scheduled Task")
 
 ### Release Template 
 Create a new release template (configure apps->new)  under custom actions you can now find your four actions
 
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/rm-custom.png?raw=true "Disable Scheduled Task")
-![alt text](https://github.com/roozbehk/MS-ReleaseManagement-ScheduledTasks/blob/master/images/rm-custom-example.png?raw=true "Disable Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/rm-custom.png?raw=true "Disable Scheduled Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/rm-custom-example.png?raw=true "Disable Scheduled Task")
 
 
 ### License
