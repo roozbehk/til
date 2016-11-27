@@ -15,7 +15,7 @@ Argument: -command ./Run_Batch.ps1 -Filepath '__Filepath__'
 ```
 Upload `Run_Batch.ps1`
 
-```
+```ps
 
 param
 (
