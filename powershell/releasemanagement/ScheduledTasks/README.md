@@ -39,7 +39,7 @@ Command: PowerShell
 Argument: -command ./Scheduled_Task_Disable_Enable.ps1 -Taskaction '__Taskaction __' -Taskname '__Taskname __'`
 ```
 
-![alt text](https://github.com/roozbehk/til/powershell/releasemanagement/ScheduledTasks/images/tools-enable-disable.png?raw=true "Tools Enable/Disable Task")
+![alt text](https://github.com/roozbehk/til/blob/master/powershell/releasemanagement/ScheduledTasks/images/tools-enable-disable.png?raw=true "Tools Enable/Disable Task")
 
 Upload `Scheduled_Task_Disable_Enable.ps1`
 Save New Tool.
