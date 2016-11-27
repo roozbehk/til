@@ -38,6 +38,10 @@ warrant a [full blog](https://roozbeh.io) post.
 [Send the array through the pipeline](powershell/foreach.md)
 
 [SQL Firewall rules](powershell/SQL_Firewall_Rules.md)
+
+[SQL Query with Email Report](powershell/SQLQueryEmailReport.md)
+
+
 ### Windows
 [How do I convert a vhdx to a wim file?](windows/create_wim_image.md)
 
