@@ -1,6 +1,6 @@
 # Powershell-MountDrives
 
-After you enable PowerShell remoting on the client machines. 
+After you enable PowerShell remoting on the client machines. (Windows 8/8.1/10)
 
 Run Mount_Drives.bat
 This will copy Mount_Drives.vbs into c:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp on all the client machine. 
