@@ -171,6 +171,7 @@ $body | Out-File UserAccountDisabled_Report_$logDate.html
 ```
 
 `run_Disable_ADUsers.bat`
+
 ```powershell -ExecutionPolicy ByPass c:\scripts\Disable_ADUsers.ps1```
 
 ### License
