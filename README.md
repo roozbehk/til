@@ -43,7 +43,9 @@ warrant a [full blog](https://roozbeh.io) post.
 
 [ESXi Check Smart Status Harddrive](powershell/esxi-HDsmartstatus-email.md)
 
-[Active Directory Disable Users Number of Days](powershell/AD_DisableUsers.md)
+[Active Directory - Disable Users Number of Days](powershell/AD_DisableUsers.md)
+
+[Release Management - Run Scheduled Tasks as Part of Deployment](tree/master/powershell/releasemanagement/ScheduledTasks)
 
 
 ### Windows
