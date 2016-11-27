@@ -72,7 +72,7 @@ cmd.exe  "/c $Filepathwithspaces"
 
 Save New Tool.
 
-![alt text](https://github.com/roozbehk/til/master/powershell/releasemanagement/RUNas/images/run-action.png "Run Command/Batch Tool")
+![alt text](https://raw.githubusercontent.com/roozbehk/til/master/powershell/releasemanagement/RUNas/images/run-action.png "Run Command/Batch Tool")
 
 ### Under Inventory -> Actions Create New Action
 ```
@@ -84,7 +84,7 @@ Tools used: Select the Tool you just created "Run Command/Batch (Administrator M
 Save New Action.
 
 
-![alt text](https://github.com/roozbehk/til/master/powershell/releasemanagement/RUNas/images/run-action.png "Run Command/Batch Action")
+![alt text](https://raw.githubusercontent.com/roozbehk/til/master/powershell/releasemanagement/RUNas/images/run-action.png "Run Command/Batch Action")
 
 
 
