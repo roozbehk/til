@@ -53,4 +53,4 @@ Write-Host (Get-Date)": $VirtualMachine is Off"
 
 #Email receiver@domain.com informing that the reference image creation has begun as scheduled
 Send-MailMessage -SmtpServer "nospam9.em.ucla.edu" -From "mdt@uclanet.ucla.edu" -To "rkavian@otc.ucla.edu" -Subject "Reference Image creation has finished" -Body "Congrats $SRV reference image creation process has successfully finished."
-```
+``` 
