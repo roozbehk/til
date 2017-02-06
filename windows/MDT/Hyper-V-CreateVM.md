@@ -77,7 +77,7 @@ $CurrentTaskSequenceID = $VirtualMachineFile + "\"
 $CurrentImageFolder = $MDTOSLocation + $CurrentTaskSequenceID
 $CurrentImage = $VirtualMachineFile +".wim"
 $CurrentImagePath = $MDTOSLocation + $CurrentTaskSequenceID + $CurrentImage
-$CurrentDate = get-date -Format yyyy_MM_dd
+$CurrentDate = get-date -Format yyyy_MM_dd_h_m_tt
 $NewImageName = $VirtualMachineFile + "_" + $CurrentDate + ".wim"
 rename-item $CurrentImagePath $NewImageName
 
