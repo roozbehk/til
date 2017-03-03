@@ -1,3 +1,5 @@
+`cmd.exe /c install.cmd`
+
 ```batch
 :: ***** Set varilables *****
 :: Environment Variables for x86/x64
