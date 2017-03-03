@@ -1,0 +1,36 @@
+```json
+{
+  "browser" : {
+    "check_default_browser" : false,
+    "show_home_button": true
+  },
+  "distribution" : {
+    "import_bookmarks" : false,
+    "import_history" : false,
+    "import_home_page" : false,
+    "import_search_engine" : false,
+    "suppress_first_run_bubble" : true,
+    "do_not_create_desktop_shortcut" : true,
+    "do_not_create_quick_launch_shortcut" : true,
+    "do_not_create_taskbar_shortcut" : true,
+    "do_not_launch_chrome" : true,
+    "do_not_register_for_update_launch" : false,
+    "make_chrome_default" : true,
+    "make_chrome_default_for_user" : true,
+    "msi" : true,
+    "require_eula" : false,
+    "suppress_first_run_default_browser_prompt" : true,
+    "system_level" : false,
+    "verbose_logging" : false
+  },
+  "first_run_tabs" : [
+    "chrome://newtab",
+	"http://www.ucla.edu"
+  ],
+  "homepage" : "chrome://newtab",
+  "homepage_is_newtabpage" : true,
+  "sync_promo" : {
+    "show_on_first_run_allowed" : false
+  }
+}
+```
