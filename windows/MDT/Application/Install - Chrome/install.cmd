@@ -1,6 +1,3 @@
-`cmd.exe /c install.cmd`
-
-```batch
 :: ***** Set varilables *****
 :: Environment Variables for x86/x64
 IF %PROCESSOR_ARCHITECTURE%==AMD64 SET HKPATH=HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node
@@ -40,4 +37,3 @@ taskkill.exe /F /IM GoogleUpdate.exe /T
 msiexec.exe ALLUSERS=2 /m MSIHUPGC /i "%~dp0googlechromestandaloneenterprise64.msi" /qn
 xcopy "%~dp0master_preferences" "C:\Program Files (x86)\Google\Chrome\Application\master_preferences*" /I /Y
 del "C:\Users\Public\Desktop\Google Chrome.lnk"
-```
