@@ -22,7 +22,7 @@ The Windows System Image Manager (Windows SIM) starts.
 
 8.   Click OK on the task sequence Properties dialog box.
 
-With the Credentials elements missing from the unattend.xml file, the ZTIConfigure.wsf script is not able to populate the domain join information in the Unattend.xml file, which will prevent Windows Setup from attempting to join the domain.
+#### With the Credentials elements missing from the unattend.xml file, the ZTIConfigure.wsf script is not able to populate the domain join information in the Unattend.xml file, which will prevent Windows Setup from attempting to join the domain.
 
 To add a task sequence step that joins the target computer to the domain
 
