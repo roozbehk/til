@@ -2,7 +2,7 @@
 
 
 
-Prepare the unattend.xml file so the target computer does not attempt to join the domain during Windows Setup
+#### Prepare the unattend.xml file so the target computer does not attempt to join the domain during Windows Setup
 
 1.   Click Start, and then point to All Programs. Point to Microsoft Deployment Toolkit, and then click Deployment Workbench.
 
