@@ -1,4 +1,7 @@
 # Valet
+
+sudo apachectl stop
+valet start
 *.app
 melodee.app
 
