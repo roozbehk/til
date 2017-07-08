@@ -1,4 +1,4 @@
-###Connect a strategy or high-level goals. 
+## Connect a strategy or high-level goals. 
 
 When I'm working with organizations, here's a key criticism I hear about otherwise good managers and leaders who aren't getting promoted. Although, they've done very well at advancing their projects, teams or function. The question comes up, what about the broader goals beyond their level? What about making contributions beyond their job description? Those are the people who really stand out. That's just one example of many.
 
