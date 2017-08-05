@@ -31,3 +31,6 @@ Create a working copy of the Windows PE files. Specify either x86, amd64, or arm
 Install Windows PE to the USB flash drive, specifying the WinPE drive letter:
 
 `MakeWinPEMedia /UFD C:\WinPE_amd64 P:`
+
+
+[link](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive)
