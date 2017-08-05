@@ -26,8 +26,8 @@ Windows 10, Version 1607 and earlier
 Start the Deployment and Imaging Tools Environment as an administrator.
 Create a working copy of the Windows PE files. Specify either x86, amd64, or arm:
 
-`copype amd64 C:\WinPE_amd64
+`copype amd64 C:\WinPE_amd64`
 
 Install Windows PE to the USB flash drive, specifying the WinPE drive letter:
 
-`MakeWinPEMedia /UFD C:\WinPE_amd64 P:
+`MakeWinPEMedia /UFD C:\WinPE_amd64 P:`
