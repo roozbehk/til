@@ -3,7 +3,7 @@
 <pre>
 $ sudo add-apt-repository ppa:duplicity-team/ppa
 $ sudo apt-get update
-$ sudo apt-get --only-upgrade install duplicity
+$ sudo apt-get install duplicity
 
 $ duplicity --version 
 duplicity 0.7.13.1
