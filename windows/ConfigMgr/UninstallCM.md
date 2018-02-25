@@ -1,4 +1,4 @@
-### powershell
+```powershell
 Stopp the Services:
 1. Stopp SMS Agent Host Service
 2. Stopp CCMSetup service (if present)
@@ -63,4 +63,4 @@ And the final Steps are the following:
 fsutil resource setautoreset true C:\
 4. Reboot
 5. Install the SCCM Agent
-###
+```
