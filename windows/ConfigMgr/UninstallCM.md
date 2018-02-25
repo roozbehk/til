@@ -56,7 +56,7 @@ Remove-Item -Path $MyPath\ccmsetup -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPath\ccmcache -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPath\SMSCFG.ini -Force -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPath\SMS*.mif -Force -ErrorAction SilentlyContinue
-
+```
 And the final Steps are the following:
 1. First run at an elevated Prompt : CHKDSK /F
 2. Reboot
@@ -64,4 +64,4 @@ And the final Steps are the following:
 fsutil resource setautoreset true C:\
 4. Reboot
 5. Install the SCCM Agent
-```
+
