@@ -1,4 +1,4 @@
-```powershell
+
 Stopp the Services:
 1. Stopp SMS Agent Host Service
 2. Stopp CCMSetup service (if present)
@@ -23,6 +23,7 @@ Delete Folder at the Task Scheduler:
 13. In Task Scheduler library, under “Microsoft” delete the “Configuration Manager” folder and any tasks within it
 
 For this you can use the following PS-Script instead:
+```powershell
 Try { Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force -ErrorAction Stop } Catch {}
 
 # Stop Services
