@@ -1,4 +1,4 @@
-###powershell
+### powershell
 Stopp the Services:
 1. Stopp SMS Agent Host Service
 2. Stopp CCMSetup service (if present)
