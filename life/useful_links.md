@@ -1,1 +1,1 @@
-http://paulgraham.com/makersschedule.html
+ [maker's schedule](http://paulgraham.com/makersschedule.html)
