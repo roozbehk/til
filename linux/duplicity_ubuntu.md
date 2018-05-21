@@ -1,4 +1,4 @@
-## Installing Duplicity on Ubuntu 	Ubuntu 16.04 LTS
+## S3 + Duplicity + duplicity-backup.sh on Ubuntu 	Ubuntu 16.04 LTS
 
 <pre>
 apt-get install s3cmd
