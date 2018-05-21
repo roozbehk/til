@@ -1,9 +1,16 @@
 ## Installing Duplicity on Ubuntu 	Ubuntu 16.04 LTS
 
 <pre>
-apt-add-repository ppa:duplicity-team/ppa
-apt-get update
-apt-get install duplicity
-apt-get install python-pip
-pip install boto
+apt-get install s3cmd
+sudo apt-add-repository ppa:duplicity-team/ppa
+sudo apt-get update
+sudo apt-get install duplicity haveged python-boto
+apt-get install mailutils
+chmod 0700 ~/.duplicity/.backup.sh
+chmod 0700 ~/duplicity-backup/duplicity-backup.sh
+
+
+0 3 * * * /root/.duplicity/.backup.sh && curl -fsS --retry 3 https://hchk.io/e2 > /dev/null
+source "/root/.duplicity/.env_variables.conf"
+
 </pre>
