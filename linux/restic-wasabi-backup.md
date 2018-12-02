@@ -56,6 +56,8 @@ unset RESTIC_REPOSITORY
 
 ### Cron Job
 
-cron
+`crontab -e`
+```
 */5 * * * *  ionice -c2 -n7 nice -n19 bash /root/restic/backup.sh > /var/log/restic-backup.log && curl -fsS --retry 3 https://hc-ping.com/ab626f33 > /dev/null
+```
 
