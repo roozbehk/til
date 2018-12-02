@@ -12,8 +12,15 @@ sudo apt-get install duplicity haveged python-boto
 sudo apt-get install duplicity haveged python-boto3
 
 apt-get install mailutils
-chmod 0700 ~/.duplicity/.backup.sh
+
+git clone https://github.com/zertrin/duplicity-backup.sh.git duplicity-backup
+git checkout stable
+OR
+git checkout master
+
 chmod 0700 ~/duplicity-backup/duplicity-backup.sh
+
+chmod 0700 ~/.duplicity/.backup.sh
 
 
 0 3 * * * /root/.duplicity/.backup.sh && curl -fsS --retry 3 https://hchk.io/e2 > /dev/null
