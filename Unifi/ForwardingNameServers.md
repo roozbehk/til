@@ -8,7 +8,7 @@ configure
 set interfaces ethernet eth1 dhcp-options name-server no-update
  To tell DNSMasq to use OpenDNS
 
-```edit service dns forwarding
+`edit service dns forwarding
 ```set name-server 208.67.222.222
 ```set name-server 208.67.220.220
 ```top
