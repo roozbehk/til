@@ -1,0 +1,11 @@
+/* UserChrome.css for Mozilla Firefox */
+/* Remove access to user interface elements that aren't suitable for application virtualization */
+
+/* Options - Advanced - General - System Defaults */
+#systemDefaultsGroup { display: none !important; }
+
+/* Options / Advanced / Update / Firefox updates group box */
+#updateApp  { display: none !important; }
+
+/* Help - About - Check for Updates button */
+#updateButton { display: none !important; }
