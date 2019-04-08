@@ -19,7 +19,8 @@ top
 
  To commit changes and save configuration
 
-```commit
+```
+commit
 save
 exit
 ```
