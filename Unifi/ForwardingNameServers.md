@@ -10,7 +10,8 @@ set interfaces ethernet eth1 dhcp-options name-server no-update
 ```edit service dns forwarding
 set name-server 208.67.222.222
 set name-server 208.67.220.220
-top```
+top
+```
 
  To instruct the router to use DNSMasq for name resolution
 
@@ -20,7 +21,8 @@ top```
 
 ```commit
 save
-exit```
+exit
+```
 
  Finally, you need to renew your WAN IP to remove the ISP DNS entries from /etc/resolv.conf.
 
@@ -43,4 +45,4 @@ exit```
  Nameservers NOT configured for DNS forwarding
 -----------------------------------------------
 127.0.0.1 available via 'system'
- ```
+```
