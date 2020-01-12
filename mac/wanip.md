@@ -7,10 +7,10 @@ Historically, DNS services (OpenDNS, Google Public DNS, ..) tend to survive much
 This method is inherently faster (be it only by a few milliseconds!).
 Using dig with OpenDNS as resolver:
 
-dig @resolver1.opendns.com ANY myip.opendns.com +short
+```dig @resolver1.opendns.com ANY myip.opendns.com +short
 Perhaps alias it in your bashrc so it's easy to remember
 
-alias wanip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
+```alias wanip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 Responds with a plain ip address:
 
 $ wanip
