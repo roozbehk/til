@@ -1,0 +1,1 @@
+%~dp0setup.exe /configure %~dp0uninstall-Office365ProPlus.xml
