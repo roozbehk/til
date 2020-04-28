@@ -21,7 +21,7 @@ W32tm /resync /rediscover
 net stop w32time && net start w32time
 ```
 
-*Test Time*
+**Test Time**
 ```
 w32tm /query /source
 w32tm /query /status
