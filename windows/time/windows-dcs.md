@@ -1,4 +1,4 @@
-Setup Time
+**Setup Time
 Setup time on on PDC (WALDORF) and allow sync to peers with UCLA Time  
 
 net stop w32time
@@ -10,7 +10,7 @@ W32tm /resync /rediscover
 net stop w32time && net start w32time
 
 
-Setup time on other DCs
+**Setup time on other DCs
 
 net stop w32time
 w32tm /unregister
@@ -21,7 +21,7 @@ W32tm /resync /rediscover
 net stop w32time && net start w32time
 
 
-Test Time
+**Test Time
 
 w32tm /query /source
 w32tm /query /status
