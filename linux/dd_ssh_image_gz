@@ -1,0 +1,1 @@
+```dd if=/dev/vda1 | gzip -1 - | ssh roozbeh@76.169.180.36 -p 2222  dd of=web01.gz```
